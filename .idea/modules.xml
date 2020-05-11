@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Day0502UserList/Day0502UserList.iml" filepath="$PROJECT_DIR$/Day0502UserList/Day0502UserList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JSTL/JSTL.iml" filepath="$PROJECT_DIR$/JSTL/JSTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Login/Login.iml" filepath="$PROJECT_DIR$/Login/Login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RedPackageDemo/RedPackageDemo.iml" filepath="$PROJECT_DIR$/RedPackageDemo/RedPackageDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Reptile/Reptile.iml" filepath="$PROJECT_DIR$/Reptile/Reptile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaCase.iml" filepath="$PROJECT_DIR$/javaCase.iml" />
+    </modules>
+  </component>
+</project>

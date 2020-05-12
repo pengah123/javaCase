@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册界面</title>
+<script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(function () {
+            $("#name").blur(function () {
+                var name = $(this).val();
+                //{userExist:true,msg:"该用户名已存在"}
+                $.get("registerServlet",{"name":name},function (data) {
+                    if(data.userExist){
+                        $("#s_name").css("color","red");
+                        $("#s_name").html(data.msg);
+                    }else {
+                        $("#s_name").css("color","green");
+                        $("#s_name").html(data.msg);
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+
+
+<input type="text" name="name" id="name" placeholder="请输入用户名">
+<span id="s_name"></span>
+<br>
+<input type="text" name="password" id="password" placeholder="请输入密码"><br>
+<input type="button" value="注册">
+</body>
+</html>
